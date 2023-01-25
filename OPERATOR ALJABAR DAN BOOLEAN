@@ -1,0 +1,22 @@
+import sympy as sym
+import numpy as np
+x = sym.Symbol('x')
+y = sym.Symbol('y')
+AND = sym.Symbol('A')
+OR = sym.Symbol('B')
+NOT = sym.Symbol('C')
+
+x = 1 
+y = 0
+
+A = x and x
+print(A)
+
+B = x or x
+print(B)
+
+C = not x
+print(C)
+
+
+
