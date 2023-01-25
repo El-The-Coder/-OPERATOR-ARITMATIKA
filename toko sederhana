@@ -1,0 +1,30 @@
+buku = 2000
+pensil = 2000
+pulpen = 3000
+penggaris = 3500
+
+print("---- Halo! Selamat datang di koperasi sekolah! ----")
+print("Kami menyediakan : ")
+print("buku")
+print("pensil")
+print("pulpen")
+print("penggaris")
+print("Barang apa yang ingin anda beli?")
+
+Usr_Buy = str(input("")) 
+jumlah = int(input("Masukan jumlah barang yang ingin dibeli "))
+
+if Usr_Buy == "buku":
+  listnama = "buku"
+  print("Harga Buku @2000")
+elif Usr_Buy == pensil:
+  print("Harga pensil @2000")
+elif Usr_Buy == pulpen:
+  print("Harga pulpen @3000")
+elif Usr_Buy == penggaris:
+  print("Harga penggaris @3500")
+else:
+  print("Maaf kami tidak menyediakan ", Usr_Buy , "Atau anda salah memasukan pilihan belanja. Pastikan sama Huruf besar dan kecilya >//<")
+
+
+
