@@ -1,0 +1,39 @@
+import sympy as sym
+import numpy as np
+x = sym.Symbol('x')
+y = sym.Symbol('y')
+
+x = 12
+y = 5
+#operator perbandingan greater than
+if ( x > y) :
+  print(True)
+else:
+  print(False)
+#operator perbandingan lebih kecil dari
+if (x < y):
+  print(True)
+else:
+  print(False)
+#operator sama dengan
+if( x == y):
+  print(True)
+else:
+  print(False)
+#operator tidak sama dengan
+if(x != y):
+  print(True)
+else:
+  print(False)
+#operator perbandingan lebih dari satu atau sama dengan 
+if ( x >= y):
+  print(True)
+else:
+  print(False)
+#operator perbandingan kurang dari satu atau sama dengan 
+if( x <= y):
+  print(True)
+else:
+  print(False)
+
+
