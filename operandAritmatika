@@ -1,0 +1,37 @@
+#librari buat manggil sistem kalkulasi
+import sympy as sym
+
+''' 
+Librari untuk menambahkan dukungan untuk array dan matriks multidimensi yang besar, 
+bersama dengan banyak koleksi fungsi matematika tingkat tinggi untuk beroperasi pada array ini.
+'''
+
+import numpy as np 
+
+x = sym.Symbol('x')
+y = sym.Symbol('y')
+Penjumlahan = sym.Symbol('A')
+Pengurangan = sym.Symbol('B')
+Perkalian  = sym.Symbol('C')
+Pembagian  = sym.Symbol('D')
+Modulus  = sym.Symbol('E')
+Pangkat_dua  = sym.Symbol('F')
+
+x = 10
+y = 5
+
+A = x + y
+B = x - y
+C = x * y
+D = x / y
+E = x % y
+F = y **2
+
+
+print(A)
+print(B)
+print(C)
+print(int(D))
+print(E)
+print(F)
+ 
