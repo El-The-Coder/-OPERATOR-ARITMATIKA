@@ -1,0 +1,31 @@
+#membuat sistem kasir sederhana 
+
+menu = {
+       "nasi goreng babat": 15000,
+       "ayam bakar asam manis":25000,
+       "es teh kampul jumbo":5000,
+       "soda gembira raja":12000,
+
+}
+
+print("========== DAFTAR MENU ==========")
+for i in menu:
+  print("Daftar menu : ", i ,"\t Harga : ", menu[i])
+
+print("Pembelian diatas 100.000 akan mendapatkan diston sebanyak 15%")
+print("==============================")
+Usr_buy = input("Pilih menu : ")
+jumlah = int(input("Jumlah pesanan : "))
+bayar = jumlah * menu[Usr_buy]
+
+if bayar > 100000:
+  diskon = bayar*15/100
+  total = bayar - diskon
+else:
+  total = bayar
+
+print("============================== Detail Pembayaran ==============================")
+print("Menu yang dipesan          : ",Usr_buy)
+print("Menu yang dipesan          : ",jumlah)
+print("Menu yang dipesan          : ",bayar)
+print("Total yang harus dibayar   : ",int(total))
