@@ -1,0 +1,29 @@
+import sympy as sym
+import numpy as np
+import cons as constanta
+x = sym.Symbol('x')
+
+x = 7 # memasukan angka 7 kedalam variabel x
+
+#tambahkan dengan angka 3
+x += 3
+print(x)
+
+#kurangi dengan angka 3
+x -= 3
+print(x)
+
+#kalikan dengan angka 3 
+x *= 3 
+print(x)
+
+#bagi dengan ankga 2
+x //= 2
+print(x)
+#sisa pembagian
+x %= 2
+print(x)
+
+#pangkat 3
+x **= 3
+print(x)
