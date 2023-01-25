@@ -1,0 +1,21 @@
+#membuat data diri 
+
+nama = input("Silahkan isi nama anda : ")
+usia = input("Masukan usia anda : ")
+lahir = input("Masukan tanggal lahir anda : ")
+anak = input("Masukkan anak ke - berapa kamu : ")
+agama = input("Masukan agama anda : ")
+kewarganegaraan = input("Input kewarganegaraan anda : ")
+alamat = input("Silahkan isi alamat anda : ")
+profesi = input("Masukan profesi anda : ")
+sekolah = input("Masukan sekolah anda : ")
+jurusan = input("Masukan jurusan anda : ")
+alasan = input("isikan alasan anda : ")
+email = input("isikan email anda : ")
+hobi = input("isikan hobi anda : ")
+karakteristik = input("isikan karakteristik anda : ")
+motto = input("isikan motto hidup anda : ")
+
+
+print("Hallo teman teman, perkenalkan nama saya adalah %s, saya berusia %s, saya lahir pada %s, saya merupakan anak ke %s, saya beragama %s, saya berkewarganegaraan %s, saya beralamat pada %s,saya berprofesi sebagai %s, saya bersekolah di %s, jurusan saya adalah %s, alasan saya adalah %s, email saya adalah %s, hobi saya adalah %s, karakteristik saya dalah %s, motto saya adalah %s." %(nama, usia, lahir, anak ,agama, kewarganegaraan, alamat, profesi, sekolah, jurusan, alasan , email, hobi, karakteristik,motto)) 
+
